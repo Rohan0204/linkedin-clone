@@ -1,0 +1,8 @@
+.App__body{
+    display: flex;
+}
+.App{
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+}

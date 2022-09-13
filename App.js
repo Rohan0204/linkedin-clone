@@ -2,6 +2,7 @@ import React from 'react';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
@@ -10,9 +11,19 @@ function App() {
       {/* header */}
       <Header/>
       {/* app body */}
+
+      <div className='App__body'>
       {/* sidebar */}
+        <Sidebar/>
+
+
+
+
       {/* feed */}
       {/* widget */}
+
+      </div>
+     
     </div>
   );
 }
